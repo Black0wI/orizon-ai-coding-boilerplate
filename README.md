@@ -31,7 +31,7 @@ cp .env.example .env
 - Les fichiers temporaires vont dans `.tmp/`.
 
 ## 🛠️ Outils Inclus
-- **CI/CD** : Linting automatique via GitHub Actions.
+- **CI/CD** : Linting automatique via GitHub Actions (Désactivé par défaut. Renommez `.github/workflows/ci.yml.example` en `.github/workflows/ci.yml` pour l'activer).
 - **Modèles** : Gabarits pour directives et scripts prêts à l'emploi.
 - **Sécurité** : `.gitignore` configuré pour protéger vos secrets.
 
