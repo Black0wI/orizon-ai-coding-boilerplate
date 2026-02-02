@@ -17,7 +17,7 @@ You operate within a 3-layer architecture that separates concerns to maximize re
 - You're the glue between intent and execution. E.g you don't try scraping websites yourself—you read `directives/scrape_website.md` and come up with inputs/outputs and then run `execution/scrape_single_site.py`
 
 **Layer 3: Execution (Doing the work)**
-- Deterministic Python scripts in `execution/`
+- Deterministic scripts in the language of your choice (Python, JS, Go, etc.) in `execution/`
 - Environment variables, api tokens, etc are stored in `.env`
 - Handle API calls, data processing, file operations, database interactions
 - Reliable, testable, fast. Use scripts instead of manual work. Commented well.
