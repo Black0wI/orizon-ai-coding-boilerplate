@@ -1,0 +1,27 @@
+{
+    "version": "2.0",
+    "project_id": "digital.orizon.sx",
+    "ai_routing": {
+        "default_model": "gemini-3-pro",
+        "specialized_models": {
+            "refactoring": "claude-4-5-opus",
+            "architecture_design": "claude-4-5-opus",
+            "unit_tests": "gemini-3-flash",
+            "autocomplete": "gemini-3-flash-streaming"
+        }
+    },
+    "usage_limits": {
+        "monthly_credit_cap": 800,
+        "alert_threshold": 0.8,
+        "confirm_on_high_cost_task": true
+    },
+    "context_management": {
+        "max_file_history": 10,
+        "ignore_patterns": [
+            "node_modules/**",
+            "dist/**",
+            ".git/**",
+            "*.log"
+        ]
+    }
+}
