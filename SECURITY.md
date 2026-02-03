@@ -15,7 +15,7 @@ Nous fournissons des mises à jour de sécurité pour les versions suivantes :
 
 Si vous découvrez une faille de sécurité, veuillez nous en informer de manière responsable :
 
-1.  Envoyez un e-mail à [votre-email@exemple.com] (Remplacez par votre adresse réelle).
+1.  Envoyez un e-mail à **security@orizon.sx**.
 2.  Décrivez la vulnérabilité et les étapes pour la reproduire.
 3.  Laissez-nous un délai raisonnable pour corriger la faille avant toute divulgation publique.
 

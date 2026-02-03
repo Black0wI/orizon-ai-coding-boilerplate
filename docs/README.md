@@ -4,9 +4,12 @@ Ce répertoire contient la documentation approfondie du projet Orizon Stack.
 
 ## Structure
 
-- `/directives` : Documentation détaillée sur la rédaction des SOPs.
-- `/execution` : Spécifications techniques des scripts déterministes.
-- `/architecture` : Diagrammes et explications de la structure 3-Layers.
+- `/architecture` : Diagrammes et explications de l'architecture 3-Layers.
+
+Pour la documentation des directives et scripts, voir :
+- `/directives/README.md` : Guide de rédaction des SOPs.
+- `/execution/README.md` : Spécifications techniques des scripts.
 
 ---
 *Documentation générée par Antigravity.*
+

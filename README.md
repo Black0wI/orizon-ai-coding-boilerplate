@@ -35,5 +35,16 @@ cp .env.example .env
 - **Modèles** : Gabarits pour directives et scripts prêts à l'emploi.
 - **Sécurité** : `.gitignore` configuré pour protéger vos secrets.
 
+## 🧠 Skills Antigravity (Optionnel)
+
+Pour étendre les capacités de l'agent IA avec des skills prédéfinis (scraping, Google Sheets, etc.), installez le repository [Antigravity Awesome Skills](https://github.com/sickn33/antigravity-awesome-skills) :
+
+```bash
+# Cloner dans le dossier .antigravity
+git clone https://github.com/sickn33/antigravity-awesome-skills.git .antigravity/skills
+```
+
+Les skills sont automatiquement détectés par l'agent et peuvent être utilisés via les directives.
+
 ## 📄 Licences & Instructions
 Voir [CLAUDE.md](CLAUDE.md) / [GEMINI.md](GEMINI.md) pour les principes opérationnels de l'agent.
